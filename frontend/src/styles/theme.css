@@ -1,0 +1,31 @@
+/* Centralized greeny theme variables */
+:root {
+  --color-bg: #f3faf7; /* very light green */
+  --color-sidebar-start: #064e3b; /* emerald-900 */
+  --color-sidebar-end: #065f46; /* emerald-800 */
+  --color-primary: #10b981; /* emerald-500 */
+  --color-primary-dark: #059669; /* emerald-600 */
+  --color-accent: #6ee7b7; /* green-200 */
+  --color-muted: #94a3b8; /* slate-ish muted */
+  --color-card: #ffffff;
+  --color-border: rgba(2,6,23,0.06);
+  --color-danger: #ef4444; /* red for errors */
+}
+
+/* Utility classes to use alongside Tailwind components */
+.bg-primary {
+  background-color: var(--color-primary) !important;
+}
+.bg-primary-dark {
+  background-color: var(--color-primary-dark) !important;
+}
+.text-primary {
+  color: var(--color-primary) !important;
+}
+.bg-app {
+  background-color: var(--color-bg) !important;
+}
+.card {
+  background-color: var(--color-card);
+  border: 1px solid var(--color-border);
+}
